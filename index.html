@@ -1,31 +1,87 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>SAMY'S UNIVERSITY</title>
-<meta charset="UTF-8">
-</head>
-<body style="background-image:url('https://raw.githubusercontent.com/xavifarm/examen-autocorreccion/master/imagenes/fondo-azul-exagonos.jpg')">
-	  <style>
-	  p.none {border-style:none;}
-	  </style>
-	  		 <h1 style="text-align:center;"><span style="color:blue">SAMY'S UNIVERSITY</span></h1>
-			 <h2 style="text-align:center;"><span style="color:blue"><p><pre>Examen<br>Lenguaje de Marcas</pre></p></span></h2>
-			 <hr>
+  <head>
+    <meta charset="utf-8">
+	<meta name="descripcion" content="Examen con autocorrección">
+	<meta name="keywords" content="Examen de Lenguaje de Marcas">
+	<meta name="author" content="Xavi Far">
+	<meta name="viewport" content="widht=device-width, initial-cale=1.0">
+    <title>SAMY'S UNIVERSITY</title>
+<style> 
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
 
-			 <p style="text-align:center;">Introduce tus datos para acceder:</p>
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 2em;
+    overflow: hidden;
+}
+</style>
+  </head>
+  <body>
+  
+  <div class="flex-container">
+  <header>
+  <h1 style="text-align:center;"><span style="color:gray">SAMY'S UNIVERSITY</span></h1>
+  <h2 style="text-align:center;"><span style="color:gray"><p><pre>Examen<br>Lenguaje de Marcas</pre></p></span></h2>
+  </header>
+  <nav>
+    <ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Contacto</a></li>
+    <li><a href="#">Localización</a></li>
+  </ul>
+  </nav>
+  
+  <article>
+  	<img src="https://raw.githubusercontent.com/xavifarm/examen-autocorreccion/master/imagenes/logo.png">
+		   <h1>La univerdidad del Chiwuawua llamado Samy</h1>
+  		   <p>Es nuestra mascota. Es nuestra insignia.</p>
+		   			 <p style="text-align:center;">Introduce tus datos para acceder:</p>
 
 			 <form action="/action_page.php" target="_blank" method="POST"<span style="text-align:center;">
   			 First name:<br>
   			 <input type="text" name="firstname" value="">
-  			 <br>
+			 <br>
   			 Last name:<br>
   			 <input type="text" name="lastname" value="">
-  			 <br>
+			 <br>
   			 DNI:<br>
-  			 <input type="text" number="lastname" value="">
-  			 <br>
-  			 <input type="submit" value="Submit"></span>
+  			 <input type="text" number="lastname" value=""></span>
 			 </form>
-</span>
-</body>
-</html>  
+  </article>
+
+  <footer>
+  <form action="/action_page.php" target="_blank" method="POST"<span style="text-align:center;">
+  <input type="submit" value="Examen"></span>
+   <p>Chiwuawua University</p>
+  </footer>
+  </body>
+</html>
