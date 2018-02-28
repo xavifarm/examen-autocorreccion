@@ -2,7 +2,7 @@
 
 window.onload = function () {
 
-    var url = "https://rawgit.com/DavidVillalba/Examen/master/json/preguntas.json";
+    var url = "https://rawgit.com/xavifarm/examen-autocorreccion/master/cuestionario.json";
 
     var xhttp = new XMLHttpRequest();
 
