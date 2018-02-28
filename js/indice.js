@@ -18,7 +18,8 @@ window.onload = function () {
             document.getElementById("Localización").style.display = "none";
 
 
-    } else {
+    } 
+else {
 
         document.getElementById("Inicio").style.display = "block";
 
