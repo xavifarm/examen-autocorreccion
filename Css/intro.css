@@ -1,0 +1,55 @@
+ <head>
+<style> 
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 2em;
+    overflow: hidden;
+}
+
+</style>
+  </head>
+
+body, html {
+	padding: 0px
+	margin: 0px;
+}
+
+body { 
+#grad1 {
+    height: 200px;
+    background: red;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+p.normal {
+	border: 2px solid black;
+	border-radius: 12px;
+}
