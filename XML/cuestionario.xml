@@ -1,178 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE questions>
-
 <questions>
-
     <question>
-
         <type>text</type>
-
         <title>Pregunta 1: ¿Què vol dir HTML?</title>
-
         <answer>eXtensible Markup Language</answer>
-
     </question>
 
     <question>
-
         <type>text</type>
-
         <title>Pregunta 2: ¿Amb quina declaració de tipus de document han de començar tots els documents HTML?</title>
-
         <answer>Simples y Complejos</answer>
-
     </question>
-
     <question>
-
         <type>select</type>
-
         <title>Pregunta 3: Sel.lecciona el que falta al següent paràmetre: <p>meta property="og:" content="Url de la pàgina que comparteixes"</p>
  </title>
-
         <option>Url despres de og:</option>
-
         <option>www despres de or:</option> 
-
-        <option>Url antes de og:</option>
-		
-		<option>www antes de og:</option>
-
-		<option>Url despres de og y www antes de og:</option>
-		
+        <option>Url antes de og:</option>	
+	<option>www antes de og:</option>
+	<option>Url despres de og y www antes de og:</option>
         <answer>1</answer>
-
     </question>
 
      <question>
-
         <type>select</type>
-
         <title>Pregunta 4: Indica amb quin element podem fer: <mark>Hola</mark></title>
-
         <option>"i"</option>
-
         <option>"strong"</option> 
-
-        <option>"sub"</option>
-		
-		<option>"mark"</option>
-		
-		<option>"eng"</option>
-
+        <option>"sub"</option>	
+	<option>"mark"</option>
+	<option>"eng"</option>
         <answer>4</answer>
-
     </question>
 
     <question>
-
         <type>multiple</type>
-
         <title>Pregunta 5: ¿Quins son els elements de format de HTML?</title>
-
         <option>"sup"</option>
-
         <option>"me"</option> 
-
-        <option>"ins"</option> 
-		
-		<option>"del"</option>
-
+        <option>"ins"</option> 	
+	<option>"del"</option>
         <answer>1</answer>
-
         <answer>3</answer>
-		
-		<answer>4</answer>
-
+	<answer>4</answer>
     </question>
 
     <question>
-
         <type>multiple</type>
-
         <title>Pregunta 6: ¿Còm es defineix la al.lineació del text?</title>
-
         <option>text-indent</option>
-
         <option>text-transform</option> 
-
-        <option>text-align</option> 
-		
-		<option>text-decoration</option>
-
+        <option>text-align</option> 	
+	<option>text-decoration</option>
         <answer>3</answer>
-
     </question>
 
     <question>
-
         <type>checkbox</type>
-
         <title>Pregunta 7: Els tìtols a dins el body es defineixen amb l'etiqueta h1 a h6. Indica quina es la més important de les següents:</title>
-
         <option>h3</option>
-
         <option>h4</option> 
-
         <option>h6</option>
-
         <option>h1</option>
-
         <answer>4</answer>
-
     </question>
 
     <question>
-
         <type>checkbox</type>
-
         <title>Pregunta 8: ¿Quins atributs podem afegir a una imatge HTML? Sel.lecciona la resposta correcte:</title>
-
         <option> Alçada i fondària</option>
-
         <option> Amplada i alçada</option>
-
         <option> Amplada i baixada</option>
-
         <option> Alçada i color</option>
-
         <answer>2</answer>
-
     </question>
 
     <question>
-
         <type>radio</type>
-
         <title>Pregunta 9: Selecciona les respostes correctes: ¿Què es va desenvolupar mitjançant la combinació dels punts forts d'HTML i XML?</title>
-
         <option> XHTML</option>
-
         <option> JAVASCRIPT</option> 
-
         <option> CSS</option> 
-
         <answer>1</answer>
-
     </question>
 
     <question>
-
         <type>radio</type>
-
         <title> Pregunta 10: Selecciona les respostes correctes: ¿Quina es una opció que podem emprar per validar un llenguatje?</title>
-
         <option> Validar per Url</option>
-
         <option> Validar per file upload</option> 
-
         <option> Validar per codi directe</option> 
-
         <answer>1</answer>
-		
-		<answer>3</answer>
-
+	<answer>3</answer>
     </question>
 
 </questions>
