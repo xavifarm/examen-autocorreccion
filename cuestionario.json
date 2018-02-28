@@ -1,0 +1,117 @@
+{
+  "questions": {
+    "question": [
+      {
+        "type": "text",
+        "title": "Pregunta 1: ¿Què vol dir HTML?",
+        "answer": "eXtensible Markup Language"
+      },
+      {
+        "type": "text",
+        "title": "Pregunta 2: ¿Amb quina declaració de tipus de document han de començar tots els documents HTML?",
+        "answer": "Simples y Complejos"
+      },
+      {
+        "type": "select",
+        "title": {
+          "#text": "Pregunta 3: Sel.lecciona el que falta al següent paràmetre: ",
+          "p": "meta property=\"og:\" content=\"Url de la pàgina que comparteixes\""
+        },
+        "option": [
+          "Url despres de og:",
+          "www despres de or:",
+          "Url antes de og:",
+          "www antes de og:",
+          "Url despres de og y www antes de og:"
+        ],
+        "answer": "1"
+      },
+      {
+        "type": "select",
+        "title": {
+          "#text": "Pregunta 4: Indica amb quin element podem fer: ",
+          "mark": "Hola"
+        },
+        "option": [
+          "\"i\"",
+          "\"strong\"",
+          "\"sub\"",
+          "\"mark\"",
+          "\"eng\""
+        ],
+        "answer": "4"
+      },
+      {
+        "type": "multiple",
+        "title": "Pregunta 5: ¿Quins son els elements de format de HTML?",
+        "option": [
+          "\"sup\"",
+          "\"me\"",
+          "\"ins\"",
+          "\"del\""
+        ],
+        "answer": [
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "type": "multiple",
+        "title": "Pregunta 6: ¿Còm es defineix la al.lineació del text?",
+        "option": [
+          "text-indent",
+          "text-transform",
+          "text-align",
+          "text-decoration"
+        ],
+        "answer": "3"
+      },
+      {
+        "type": "checkbox",
+        "title": "Pregunta 7: Els tìtols a dins el body es defineixen amb l'etiqueta h1 a h6. Indica quina es la més important de les següents:",
+        "option": [
+          "h3",
+          "h4",
+          "h6",
+          "h1"
+        ],
+        "answer": "4"
+      },
+      {
+        "type": "checkbox",
+        "title": "Pregunta 8: ¿Quins atributs podem afegir a una imatge HTML? Sel.lecciona la resposta correcte:",
+        "option": [
+          " Alçada i fondària",
+          " Amplada i alçada",
+          " Amplada i baixada",
+          " Alçada i color"
+        ],
+        "answer": "2"
+      },
+      {
+        "type": "radio",
+        "title": "Pregunta 9: Selecciona les respostes correctes: ¿Què es va desenvolupar mitjançant la combinació dels punts forts d'HTML i XML?",
+        "option": [
+          " XHTML",
+          " JAVASCRIPT",
+          " CSS"
+        ],
+        "answer": "1"
+      },
+      {
+        "type": "radio",
+        "title": " Pregunta 10: Selecciona les respostes correctes: ¿Quina es una opció que podem emprar per validar un llenguatje?",
+        "option": [
+          " Validar per Url",
+          " Validar per file upload",
+          " Validar per codi directe"
+        ],
+        "answer": [
+          "1",
+          "3"
+        ]
+      }
+    ]
+  }
+}
